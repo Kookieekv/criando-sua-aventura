@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"> 
+            <img src="img/cenario-passo0.avif" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, descobri sobre ilhas perdidas escritas em três cartas escondidas dentro do livro por conter cidades com riquezas e segredos misteriosos. Nessas cartas, o autor deixa algumas pistas do que se encontravam nessas cidades e dicas de como encontrá-las. Qual cidade devo tentar encontrar? </p>
+            <button  class="btn-proximo" data-proximo="1">Cidade com criaturas mitológicas terrestres, perto da ilha Dorne</button>
+            <button  class="btn-proximo" data-proximo="2">Cidade com criaturas mitológicas marinhas, perto da ilha Bravos</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/caminho.montanha.jpg" alt="">
+            <p>Você começa sua jornada na ilha de Dorne em Westeros, subindo a montanha vermelha ao amanhecer para encontrar a primeira pista.</p>
+            <button  class="btn-proximo" data-proximo="3">Procurar a pista no topo da montanha</button>
+            <button  class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na ilha de Bravos em Essos, você visita a histórica cidade de Narvos. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?  </p>
+            <button  class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
+            <button  class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+       
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>No topo da montanha vermelha, você encontra uma outra carta dizendo que a próxima pista está localizada na cidade Helliholt. </p>
+            <button  class="btn-proximo" data-proximo="7">Seguir para Helliholt </button>
+        </div>
+
+
+        <div class="passo" id="passo-4">
+            <img src="img/para casa alura.avif" alt="imagem voltando para casa e desistindo">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado, caso tivesse continuado essa aventura. </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/igreja.cenario.jpg" alt="">
+            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima pista está em Andalos. </p>
+            <button  class="btn-proximo" data-proximo="8">Viajar para Andalos</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/praia.cenario.jpg" alt="">
+            <p>Explorando as praias, você encontra uma pista em baixo de uma pequena montanha de areia, dizendo para seguir em Andalos. </p>
+            <button  class="btn-proximo" data-proximo="8">Viajar para Andalos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/caminho rio.jpg" alt="">
+            <p>Em Helliholt, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado. </p>
+            <button  class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button  class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Em Andalos, você finalmente encontra o mapa antigo. Indicando que a cidade perdida está localizada na cidade vizinha, Helos. </p>
+            <button  class="btn-proximo" data-proximo="11">Seguir para o Helos</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/cachoeira.cenário.jpg" alt="">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da cidade perdida. </p>
+            <button  class="btn-proximo" data-proximo="12">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/pantanal.cenario.png" alt="">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida aqui. </p>
+            <button  class="btn-proximo" data-proximo="13">Retornar e tentar o outro rio</button>
+        
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/biblioteca.cenario.jpg" alt="">
+            <p>Em Helos, você resolve procurar na biblioteca da cidade. Depois de procurar muito você encontra um mapa, nele mostra que a cidade está em uma caverna na floresta próxima. </p>
+            <button  class="btn-proximo" data-proximo="14">Ir procurar essa caverna na floresta próxima</button>
+       
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/cidade.dragoes.jpg" alt="">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis, Dragões vivendo em harmonia com humanos e decide se dedicar a estudar e preservar este lugar. </p>
+        
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/cachoeira.cenário.jpg" alt="">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições que levam à cidade perdida. </p>
+            <button  class="btn-proximo" data-proximo="12">Explorar a cidade perdida</button>
+        
+        </div>
+
+
+        <div class="passo" id="passo-14">
+            <img src="img/caverna.cenario.avif" alt="">
+            <p>Na floresta a busca pela cidade perdida se intensifica. Você encontra a caverna, mas possui dois caminhos, não especificados no mapa. </p>
+            <button  class="btn-proximo" data-proximo="15">Seguir para o caminho esquerdo</button>
+            <button  class="btn-proximo" data-proximo="16">Seguir para o caminho direito</button>
+        
+        </div>
+
+
+
+        <div class="passo" id="passo-15">
+            <img src="img/pantanal.cenario.png" alt="">
+            <p>O caminho à esquerda termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida aqui. </p>
+            <button  class="btn-proximo" data-proximo="17">Retornar e tentar o outro caminho</button>
+            
+        </div>
+
+
+
+        <div class="passo" id="passo-16">
+            <img src="img/ponte.cenario.avif" alt="">
+            <p>O caminho à direita leva você a uma ponte revelando a entrada da cidade perdida. </p>
+            <button  class="btn-proximo" data-proximo="18">Explorar a cidade perdida</button>
+        
+        </div>
+
+
+        <div class="passo" id="passo-17">
+            <img src="img/ponte.cenario.avif" alt="">
+            <p>Retornando e escolhendo o caminho à direita, você finalmente encontra uma ponte revelando a entrada da cidade perdida. </p>
+            <button  class="btn-proximo" data-proximo="18">Explorar a cidade perdida</button>
+        
+        </div>
+
+        <div class="passo" id="passo-18">
+            <img src="img/cidade.piratas.avif" alt="">
+            <p> Dentro da cidade perdida, você descobre tesouros inimagináveis, piratas legais batalhando com criaturas místicas marinhas e decide se dedicar a estudar e preservar este lugar. </p>
+           
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
